@@ -1,0 +1,65 @@
+ * {
+     box-sizing: border-box;
+     --main-bg: #ff8400;
+     --secondary-bg: #8b766b;
+
+
+ }
+
+ body {
+     margin: 0;
+     padding: 0;
+ }
+
+ nav {
+     height: 3rem;
+ }
+ .main-color {
+     color: var(--main-bg);
+ }
+
+ .main-bg {
+     background-color: var(--main-bg);
+ }
+
+ .secondary-bg {
+     background-color: var(--secondary-bg);
+ }
+
+ .theme-font {
+     font-family: "Press Start 2P", system-ui;
+     font-weight: 300;
+     font-style: normal;
+     font-size: 1rem;
+
+ }
+
+.btn-theme:hover{
+    background-color: var(--main-bg);
+    color: white;
+}
+.btn-outline-warning{
+             --bs-btn-color: var(--main-bg);
+    --bs-btn-border-color: var(--main-bg);
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: var(--main-bg);
+    --bs-btn-hover-border-color: var(--main-bg);
+    --bs-btn-focus-shadow-rgb: 255, 193, 7;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: var(--main-bg);
+    --bs-btn-active-border-color: var(--main-bg);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: var(--main-bg);
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: var(--main-bg);
+    --bs-gradient: none;
+}
+.form-control:focus {
+    border-color: var(--main-bg);
+    outline: 0;
+    box-shadow: 0 0 0 .25rem  #ff840041;
+}
+i{
+    color: var(--main-bg);
+size: 3rem;
+}
